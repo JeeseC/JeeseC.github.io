@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.2">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.2">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.2" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.1.2',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="天空微微飘零着细雨，夹杂些许的冷冰，但这只是8月中，对于南方也只能算是夏天的尾巴。我小心翼翼地挤上一辆没有位置但不算很拥挤的公车，找了一个比较空的位置站着。 当公车微微抖动，车门开始关闭的一瞬间，从门缝挤上来一个人。一个急忙的身影就站在我隔壁，两三步的距离。他，只是一个很普通的人，普通得看不出任何吸引我的目光，因为略微拥挤让我有些警惕。 他从左手挽着的环保袋里，拿出一小卷胶布和一把小剪刀。很熟练地">
+<meta name="keywords" content="hexo,github">
+<meta property="og:type" content="article">
+<meta property="og:title" content="手·疮痍·未来">
+<meta property="og:url" content="http://jeesechen.com/2019/06/11/手·疮痍·未来/index.html">
+<meta property="og:site_name" content="JeeseChen博客">
+<meta property="og:description" content="天空微微飘零着细雨，夹杂些许的冷冰，但这只是8月中，对于南方也只能算是夏天的尾巴。我小心翼翼地挤上一辆没有位置但不算很拥挤的公车，找了一个比较空的位置站着。 当公车微微抖动，车门开始关闭的一瞬间，从门缝挤上来一个人。一个急忙的身影就站在我隔壁，两三步的距离。他，只是一个很普通的人，普通得看不出任何吸引我的目光，因为略微拥挤让我有些警惕。 他从左手挽着的环保袋里，拿出一小卷胶布和一把小剪刀。很熟练地">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-06-12T02:33:04.864Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="手·疮痍·未来">
+<meta name="twitter:description" content="天空微微飘零着细雨，夹杂些许的冷冰，但这只是8月中，对于南方也只能算是夏天的尾巴。我小心翼翼地挤上一辆没有位置但不算很拥挤的公车，找了一个比较空的位置站着。 当公车微微抖动，车门开始关闭的一瞬间，从门缝挤上来一个人。一个急忙的身影就站在我隔壁，两三步的距离。他，只是一个很普通的人，普通得看不出任何吸引我的目光，因为略微拥挤让我有些警惕。 他从左手挽着的环保袋里，拿出一小卷胶布和一把小剪刀。很熟练地">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="JeeseChen博客" type="application/atom+xml">
+
+
+
+  
+  
+  <link rel="canonical" href="http://jeesechen.com/2019/06/11/手·疮痍·未来/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>手·疮痍·未来 | JeeseChen博客</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">JeeseChen博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">瞬间的灵感，可能是一生的亮点</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">2</span></a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">1</span></a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">2</span></a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://jeesechen.com/2019/06/11/手·疮痍·未来/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jeese">
+      <meta itemprop="description" content="每一个人都有属于自己的那座城市，每座城市都会有属于自己的那片天空。">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JeeseChen博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">手·疮痍·未来
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-06-11 07:56:29" itemprop="dateCreated datePublished" datetime="2019-06-11T07:56:29+08:00">2019-06-11</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-06-12 10:33:04" itemprop="dateModified" datetime="2019-06-12T10:33:04+08:00">2019-06-12</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/大城市·小天空/" itemprop="url" rel="index"><span itemprop="name">大城市·小天空</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>天空微微飘零着细雨，夹杂些许的冷冰，但这只是8月中，对于南方也只能算是夏天的尾巴。<br>我小心翼翼地挤上一辆没有位置但不算很拥挤的公车，找了一个比较空的位置站着。</p>
+<p>当公车微微抖动，车门开始关闭的一瞬间，从门缝挤上来一个人。<br>一个急忙的身影就站在我隔壁，两三步的距离。<br>他，只是一个很普通的人，普通得看不出任何吸引我的目光，因为略微拥挤让我有些警惕。</p>
+<p>他从左手挽着的环保袋里，拿出一小卷胶布和一把小剪刀。很熟练地拉扯出一段胶布，在有些摇晃的车子里，用手臂绕紧扶手，站着剪下那段扯出的胶布，然后又将小剪刀迅速地穿过胶布的中空轴握着。<br>摇摇晃晃地缠绕着自己的右无名指，手背对着我。<br>我心中猜疑着这何用？<br>好奇地往前探了探头，想看看个究竟。  </p>
+<p>手背上爬满与他脸孔相应和的皱纹，或许是风吹日晒和工作的缘故，老得比较明显。<br>因为从他衣服上留下的石灰迹，还有那双廉价的塑胶鞋和些许厚度的石灰渣。<br>他是一个民工，这大城市里一名的外来工。  </p>
+<p>手掌翻转的一瞬间，手心清晰对着我的时候，我差点就失声叫出来。<br>这是什么？<br>这个位置，这个形状，在人身上，的确是人的手。  </p>
+<p><strong><em>清晰的手掌纹路，没有。</em></strong><br><strong><em>平滑的手掌面，没有。</em></strong><br><strong><em>明显的手指关节，没有。</em></strong></p>
+<p><strong><em>只有，崎岖不平的皮层。</em></strong><br><strong><em>只有，未愈合的伤口。</em></strong><br><strong><em>只有，有些臃肿的手指。</em></strong></p>
+<p>当他又翻转到手背的时候，我更清晰地看到了，“手”已经没有指甲了。<br>看着那双手的样子，我真的不敢相信这世间还会有这样子的手。<br>以前上网看着那些人间冷暖的图片，我只是很简单觉得那的确很辛苦，那些图片看起来还算是“正常”的，只不过是图片上的手看起来比较老，比较黑，比较干，比较······ 我可以用很多词语来说。<br>但是我亲眼看到这对手，一个词语都没有办法形容，哪怕是一个字都说不上。</p>
+<p>他很快地缠绕好了右手的四个手指，本来看着他还想再拉扯出一段胶布，但是没拉出多长就和胶布轴断开了。<br>他又卷回去了，然后把小剪刀和胶布收拾好，小心翼翼放回他左手边的“百宝袋”。</p>
+<p>车到站，停下，门打开了。<br>他看了看头顶上的路线牌子，然后又急匆匆地下车了。<br>这一站，高楼林立，外墙玻璃影射的光亮很刺眼。<br>来来往往的人群，虽然谈不上西装革履、华裙艳服，但起码大众朴实、有模有样。<br>而他，一件背后印着某牌子的广告T恤，些许残旧，还有那个有点起毛的环保袋。<br>在人群中，显得特别与众不同。</p>
+<p>下车之后，他显得很茫然，也许是第一次来的这个感觉有点陌生冷淡的地方。<br>可是我觉得他是不同，他眼睛里充满了希望憧憬的光芒，比起那些忙碌机械的标准白领，他身上的光亮更刺眼。<br>也许，他眼中的天空跟我们是不同的，更清澈更蔚蓝。</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+            <a href="/tags/github/" rel="tag"># github</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/06/11/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Jeese</p>
+              <div class="site-description motion-element" itemprop="description">每一个人都有属于自己的那座城市，每座城市都会有属于自己的那片天空。</div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">分类</span>
+                  
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">标签</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jeese</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.2</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.2"></script>
+
+  <script src="/js/motion.js?v=7.1.2"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/affix.js?v=7.1.2"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.1.2"></script>
+
+
+
+
+  
+  <script src="/js/scrollspy.js?v=7.1.2"></script>
+<script src="/js/post-details.js?v=7.1.2"></script>
+
+
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.2"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
